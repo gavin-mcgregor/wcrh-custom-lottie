@@ -68,23 +68,6 @@ export default function Edit({ attributes, setAttributes }) {
 		}
 	}, [lottieFile]);
 
-	// useEffect(() => {
-	// 	if (lottieFile && customID) {
-	// 		const element = document.querySelector(`#${customID}`);
-	// 		console.log("ID: #" + customID);
-	// 		console.log(element);
-	// 		if (element) {
-	// 			lottie.loadAnimation({
-	// 				container: element,
-	// 				renderer: "svg",
-	// 				loop: true,
-	// 				autoplay: true,
-	// 				path: lottieFile,
-	// 			});
-	// 		}
-	// 	}
-	// }, [lottieFile, customID]);
-
 	return (
 		<>
 			<InspectorControls>
